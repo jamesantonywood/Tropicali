@@ -4,6 +4,8 @@ var cleanCSS = require('gulp-clean-css');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 var imagemin = require('gulp-imagemin');
+var ghpages = require('gh-pages');
+
 
 gulp.task("sass", function() {
     return gulp.src("src/assets/sass/app.scss")
@@ -48,7 +50,6 @@ gulp.task("watch", function() {
     gulp.watch("src/assets/img/*", gulp.series("images"));
     gulp.watch("src/assets/sass/app.scss", gulp.series("sass"));
 });
-
 
 
 gulp.task("default", gulp.series("html", "images", "fonts", "sass", "watch"));
