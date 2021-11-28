@@ -1,0 +1,33 @@
+{
+  "name": "tropicali",
+  "version": "1.0.0",
+  "description": "A website for Tropicali restaurant",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesantonywood/Tropicali.git"
+  },
+  "keywords": [
+    "restaurant",
+    "website"
+  ],
+  "author": "James Wood",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jamesantonywood/Tropicali/issues"
+  },
+  "homepage": "https://github.com/jamesantonywood/Tropicali#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-sass": "^5.0.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^6.0.1",
+    "sass": "^1.43.5"
+  }
+}
