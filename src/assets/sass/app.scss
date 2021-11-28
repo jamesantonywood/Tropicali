@@ -2,7 +2,7 @@
   Imports
 ==================================*/
 
-@import "../css/reset";
+@import "reset";
 @import "typography";
 
 
@@ -10,7 +10,7 @@
   Variables
 ==================================*/
 
-$body-font: "Jost";
+$body-font: Jost;
 $body-size: 24px;
 $primary-color: #ca774a;
 
@@ -51,7 +51,6 @@ body {
 }
 
 section {
-
     width: 500px;
     @include mq($mq-medium) {
         width: 350px;
